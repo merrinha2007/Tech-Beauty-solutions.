@@ -1,0 +1,579 @@
+/*Não apagar os itens principais*/
+*{
+    padding: 0;
+    margin: 0;
+    
+ }
+ body{
+    overflow-x: hidden;
+ }
+a{
+    color: #000000;
+}
+header{
+    display: flex;
+    width: 100vw;
+    height: 21vh;
+    background-color: rgb(0, 0, 0);
+    
+}
+#logo{
+    display: flex;
+    height: 19vh;
+    width: 19vw;
+    padding-left: 45px;
+    padding-top: 7px;
+    
+    
+}
+#logo img{
+    border-radius: 100%;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.842);
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    color: #ffffff;
+    
+}
+#botoes{
+    margin-top: 36px;
+    align-items: center ;
+    display: flex;
+    background-color: rgba(141, 139, 139, 0.644);
+    font: arial normal;
+    color: #ffffff;
+    height: 10vh;
+    font-size: 30px;
+    border-radius: 12px;
+    gap: 5vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.842);
+    box-shadow: 4px 5px 2px rgba(231, 229, 229, 0.253);
+    text-decoration: none ;
+}
+#btn{
+    height: 6vh; 
+    padding-left: 1vh;
+    padding-right: 1vh;
+    background-color: rgb(160, 157, 157);
+    border-radius: 12px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.733);
+    cursor: pointer;
+    color: #ffffff;
+}
+#btn:hover{
+    background-color: rgba(0, 0, 0, 0.219);
+    transition: 0.3s;
+    box-shadow: 3px 4px 3px rgba(255, 255, 255, 0.733);
+}
+.pesquisa{
+    color: #ffffff;
+    height: 35px; 
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(105, 105, 105);
+    border-radius: 12px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.733);
+    border: white 1px solid;
+    text-align: center;
+}
+/*Abaixo e o menu da pagina*/
+
+.divmaior {
+    background-color: rgb(180, 180, 180);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divpai {
+    background-color: rgb(206, 206, 206);
+    width: 80vw;
+    height: 70vh;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+.divcoluna1 {
+    display: flex;
+    width: 70vw;
+    height:30vh;
+    gap: 5vw;
+    margin-top: 4vh;
+    margin-left: 5vw;   
+    
+}
+
+.divfilha1 {
+    width: 10vw;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+
+}
+
+.divfilha1-1 {
+    background-image: url(https://i.ibb.co/3zJvR5M/Imagem-do-Whats-App-de-2024-11-12-s-17-34-58-f864895b.jpg);
+    background-size: 10vw 20vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    box-shadow:1px 2px 10px rgb(0, 0, 0) ;
+    border-radius: 15px;
+}
+.divfilha1-2 {
+    background-image: url(https://i.ibb.co/nBL8bBH/produto-2.jpg);
+    background-size: 10vw 20vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    box-shadow:1px 2px 10px rgb(0, 0, 0) ;
+    border-radius: 15px;
+
+}
+.divfilha1-3 {
+    background-image: url(https://i.ibb.co/jfSNQTW/produto-3.jpg);
+    background-size: 10vw 20vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    box-shadow:1px 2px 10px rgb(0, 0, 0) ;
+    border-radius: 15px;
+}
+.divfilha1-4 {
+    background-image: url(https://i.ibb.co/jzRh5CP/produto-4.jpg);
+    background-size: 10vw 20vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    box-shadow:1px 2px 10px rgb(0, 0, 0) ;
+    border-radius: 15px;
+}
+.divfilha1-5 {
+    background-image: url(https://i.ibb.co/rwTDX2X/produto-5.jpg);
+    background-size: 10vw 20vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    box-shadow:1px 2px 10px rgb(0, 0, 0) ;
+    border-radius: 15px;
+}
+.divfilha1-6 {
+    background-image: url(https://i.ibb.co/82f62HM/produto-6.jpg);
+    background-size: 10vw 20vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    box-shadow:1px 2px 10px rgb(0, 0, 0) ;
+    border-radius: 15px;
+}
+.divfilha1-7 {
+    background-image: url(https://i.ibb.co/TKPxNQ3/produto-7.jpg);
+    background-size: 10vw 20vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    box-shadow:1px 2px 10px rgb(0, 0, 0) ;
+    border-radius: 15px;
+}
+.divfilha1-8 {
+    background-image: url(https://i.ibb.co/WH3c3r8/produto-8.jpg);
+    background-size: 10vw 20vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    box-shadow:1px 2px 10px rgb(0, 0, 0) ;
+    border-radius: 15px;
+}
+.divfilha1-9 {
+    background-image: url(https://i.ibb.co/KhcMt24/produto-9.jpg);
+    background-size: 10vw 20vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    box-shadow:1px 2px 10px rgb(0, 0, 0) ;
+    border-radius: 15px;
+}
+.divfilha1-10 {
+    background-image: url(https://i.ibb.co/FX6ZVWm/produto-10.jpg);
+    background-size: 10vw 20vh;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 20vh;
+    box-shadow:1px 2px 10px rgb(0, 0, 0) ;
+    border-radius: 15px;
+}
+
+
+#span1 {
+    
+    font-size: 20pt;
+    font: Arial;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.411);
+}
+
+.divcoluna2 {
+    display: flex;
+    width: 70vw;
+    height:30vh;
+    gap: 5vw;
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+
+
+
+
+
+/* aparti daqui codigo do produto 1 */
+
+.divpai1-1 {
+    width: 50vw;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 35px; 
+    display: flex;
+
+}
+
+.divmae1 {
+    background-color: rgba(127, 255, 212, 0.712);
+    background-image: url(https://i.ibb.co/3zJvR5M/Imagem-do-Whats-App-de-2024-11-12-s-17-34-58-f864895b.jpg);
+    background-size: 30vw 55vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 35px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.753);
+}
+.legenda1 {
+    text-decoration: rgb(0, 0, 0);
+    font-size: 115%;
+    font: Arial;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+
+/* aparti daqui código do produto 2 */
+
+.divpai1-2 {
+    width: 50vw;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 35px; 
+    display: flex;
+
+}
+
+.divmae2 {
+    background-color: rgba(242, 255, 127, 0.712);
+    background-image: url(https://i.ibb.co/nBL8bBH/produto-2.jpg);
+    background-size: 30vw 55vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 35px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.753);
+}
+
+.legenda2 {
+    text-decoration: black;
+    font-size: 115%;
+    font: Arial;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+/* aparti daqui código do produto 3 */
+
+.divpai1-3 {
+    width: 50vw;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 35px; 
+    display: flex;
+    
+
+}
+
+.divmae3 {
+    background-color: rgba(127, 146, 255, 0.712);
+    background-image: url(https://i.ibb.co/jfSNQTW/produto-3.jpg);
+    background-size: 30vw 55vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 35px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.753);
+}
+#abroba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.legenda3 {
+    text-decoration: black;
+    font-size: 105%;
+    font: Arial;
+    text-align: center;
+
+}
+
+
+/* aparti daqui código do produto 4 */
+
+.divpai1-4 {
+    width: 50vw;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 35px; 
+    display: flex;
+
+}
+
+.divmae4 {
+    background-color: rgba(127, 146, 255, 0.712);
+    background-image: url(https://i.ibb.co/jzRh5CP/produto-4.jpg);
+    background-size: 30vw 55vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 35px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.753);
+}
+
+.legenda4 {
+    text-decoration: black;
+    font-size: 115%;
+    font:Arial;
+    text-align: center;
+    margin-top: 5%;
+    margin-left:5%;
+}
+
+
+/* aparti daqui código do produto 5 */
+
+.divpai1-5 {
+    width: 50vw;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 35px; 
+    display: flex;
+
+}
+
+.divmae5 {
+    background-color: rgba(127, 146, 255, 0.712);
+    background-image: url(https://i.ibb.co/rwTDX2X/produto-5.jpg);
+    background-size: 30vw 55vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 35px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.753);
+}
+
+.legenda5 {
+    text-decoration: black;
+    font-size: 115%;
+    font:Arial;
+    text-align: center;
+    margin-top: 5%;
+    margin-left:5%;
+}
+
+
+/* aparti daqui código do produto 6 */
+
+.divpai1-6 {
+    width: 50vw;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 35px; 
+    display: flex;
+
+}
+
+.divmae6 {
+    background-color: rgba(127, 146, 255, 0.712);
+    background-image: url(https://i.ibb.co/82f62HM/produto-6.jpg);
+    background-size: 30vw 55vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 35px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.753);
+}
+
+.legenda6 {
+    text-decoration: black;
+    font-size: 115%;
+    font:Arial;
+    text-align: center;
+    margin-top: 5%;
+    margin-left:5%;
+}
+
+
+/* aparti daqui código do produto 7 */
+
+.divpai1-7 {
+    width: 50vw;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 35px; 
+    display: flex;
+
+}
+
+.divmae7 {
+    background-color: rgba(127, 146, 255, 0.712);
+    background-image: url(https://i.ibb.co/TKPxNQ3/produto-7.jpg);
+    background-size: 30vw 55vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 35px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.753);
+}
+
+.legenda7 {
+    text-decoration: black;
+    font-size: 115%;
+    font:Arial;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+
+/* aparti daqui código do produto 8 */
+
+.divpai1-8 {
+    width: 50vw;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 35px; 
+    display: flex;
+    align-items: center;
+
+}
+
+.divmae8 {
+    background-color: rgba(127, 146, 255, 0.712);
+    background-image: url(https://i.ibb.co/WH3c3r8/produto-8.jpg);
+    background-size: 30vw 55vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 35px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.753);
+}
+
+.legenda8 {
+    text-decoration: black;
+    font-size: 100%;
+    font:Arial;
+    text-align: center;
+    
+    
+}
+ 
+
+/* aparti daqui código do produto 9 */
+
+.divpai1-9 {
+    width: 50vw;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 35px; 
+    display: flex;
+    
+
+}
+
+.divmae9 {
+    background-color: rgba(127, 146, 255, 0.712);
+    background-image: url(https://i.ibb.co/KhcMt24/produto-9.jpg);
+    background-size: 30vw 55vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 35px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.753);
+}
+
+.legenda9 {
+    text-decoration: black;
+    font-size: 115%;
+    font:Arial;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+
+/* aparti daqui código do produto 10 */
+
+.divpai1-10 {
+    width: 50vw;
+    height: 55vh;
+    background-color: whitesmoke;
+    border-radius: 35px; 
+    display: flex;
+
+}
+
+.divmae10 {
+    background-color: rgba(127, 146, 255, 0.712);
+    background-image: url(https://i.ibb.co/FX6ZVWm/produto-10.jpg);
+    background-size: 30vw 55vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 35px;
+    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.753);
+}
+
+.legenda10 {
+    text-decoration: black;
+    font-size: 115%;
+    font:Arial;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+
+/*roda pé*/
+footer{
+    height: 29px;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 13vh;
+    gap: 250px;
+}
+
+#nome{
+    color: #ffffff91;
+    font-size: 18pt;
+    transition: all 0,5s;
+    cursor: pointer;
+}
+#nome:hover {
+    color: rgb(193, 67, 252);
+}
+a{
+    text-decoration: none;
+}
+

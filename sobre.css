@@ -1,0 +1,275 @@
+/*Não apagar os itens principais*/
+*{
+    padding: 0;
+    margin: 0;
+    
+ }
+ body{
+    overflow-x: hidden;
+ }
+header{
+    display: flex;
+    width: 100vw;
+    height: 21vh;
+    background-color: rgb(0, 0, 0);
+    
+}
+#logo{
+    display: flex;
+    height: 19vh;
+    width: 19vw;
+    padding-left: 45px;
+    padding-top: 7px;
+    
+    
+}
+#logo img{
+    border-radius: 100%;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.842);
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    color: #ffffff;
+    
+}
+#botoes{
+    margin-top: 36px;
+    align-items: center ;
+    display: flex;
+    background-color: rgba(141, 139, 139, 0.644);
+    font: arial normal;
+    color: #ffffff;
+    height: 10vh;
+    font-size: 30px;
+    border-radius: 12px;
+    gap: 5vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.842);
+    box-shadow: 4px 5px 2px rgba(231, 229, 229, 0.253);
+    text-decoration: none ;
+}
+#btn{
+    height: 6vh; 
+    padding-left: 1vh;
+    padding-right: 1vh;
+    background-color: rgb(160, 157, 157);
+    border-radius: 12px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.733);
+    cursor: pointer;
+    color: #ffffff;
+}
+#btn:hover{
+    background-color: rgba(0, 0, 0, 0.219);
+    transition: 0.3s;
+    box-shadow: 3px 4px 3px rgba(255, 255, 255, 0.733);
+}
+.pesquisa{
+    color: #ffffff;
+    height: 35px; 
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(105, 105, 105);
+    border-radius: 12px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.733);
+    border: white 1px solid;
+    text-align: center;
+}
+/*Abaixo e o menu da pagina*/
+
+#inf1{ /*Fernando*/
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    border-radius: 15px;
+    width: 55vw;
+    height: 24vh;
+    margin-left: 22vw;
+    background-color: rgba(128, 128, 128, 0.534);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.582);
+    text-shadow:  0px 1px 2px rgba(0, 0, 0, 0.281);;
+    display: flex;
+    gap: 18px;
+
+}
+#foto1{/*Fernando*/
+    border: 2px solid rgba(0, 0, 0, 0.356);
+    border-radius: 100%;
+    height: 22vh ;
+    width: 12vw;
+    padding-top: 8px;   
+    margin-left: 12px;
+    margin-top: 3px;
+    box-shadow: 3px 1px 17px #b0b2e7;
+    background-image: url("https://i.ibb.co/PF4dmty/Logo-portifolio.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+    #inf2{ /*Armando*/
+        border: 1px solid rgba(0, 0, 0, 0.356);
+        border-radius: 15px;
+        width: 55vw;
+        height: 24vh;
+        margin-left: 22vw;
+        background-color: rgba(128, 128, 128, 0.534);
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.582);
+        text-shadow:  0px 1px 2px rgba(0, 0, 0, 0.281);;
+        display: flex;
+        gap: 18px;
+    
+    }
+    #foto2{/*Armando*/
+        border: 2px solid rgba(0, 0, 0, 0.356);
+        border-radius: 100%;
+        height: 22vh ;
+        width: 12vw;
+        padding-top: 8px;   
+        margin-right: 12px;
+        margin-top: 3px;
+        box-shadow: -3px 1px 15px #e78c57c7;
+        background-image: url("https://i.ibb.co/HTbP8C3/Imagem-do-Whats-App-de-2024-11-14-s-12-19-47-1b8b3991.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        }
+        #inf3{ /*Mariana*/
+            border: 1px solid rgba(0, 0, 0, 0.356);
+            border-radius: 15px;
+            width: 55vw;
+            height: 24vh;
+            margin-left: 22vw;
+            background-color: rgba(128, 128, 128, 0.534);
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.582);
+            text-shadow:  0px 1px 2px rgba(0, 0, 0, 0.281);;
+            display: flex;
+            gap: 18px;
+        
+        }
+        #foto3{/*Mariana*/
+            border: 2px solid rgba(0, 0, 0, 0.356);
+            border-radius: 100%;
+            height: 22vh ;
+            width: 12vw;
+            padding-top: 8px;   
+            margin-left: 12px;
+            margin-top: 3px;
+            box-shadow: 3px 1px 15px #465769;
+            background-image: url("https://i.ibb.co/5RRkLKN/Imagem-do-Whats-App-de-2024-11-14-s-12-29-56-ed529239.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            }
+ .fun{ /* funçao da pessoa  Geral */
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.541);
+    font: bold;
+    font-size: 27pt;
+    padding-left: 20px;
+}
+    .infs{ /*div geral*/
+        height: 20vh;
+        width: 41vw;
+        text-align: center;
+        font-family: 'fantasy';
+        font-size: 18pt;
+        padding-top: 25px;
+    }
+    .tit{ /*Nome da pessoa */
+        font: bold;
+        font-size: 27pt;
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.459);
+        padding-bottom: 25px;
+    }
+
+#MeV{
+
+    height: 31vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+    
+}
+#Vep{   
+    height: 31vh;
+    height: 31vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}    
+#area{
+    height: 30vh;
+    width: 27vw;
+    margin: 1vw;
+    border: solid rgba(0, 0, 0, 0.308) 2px ;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.493);
+    background-color: #e9e9e9;
+    text-align: center;
+}
+#com{
+    font-size: 30pt;
+    text-decoration: underline 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+#com a {
+    color:black;
+}
+#com a:active{
+    color:black;
+}
+#desc{
+    font-size: 16pt;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.212);
+    font-family: 'Times New Roman', Times, serif;
+}
+#txta{
+   
+    height: 34vh;
+    width: 40vw;
+    text-align: center;
+    margin-left: 30vw;
+    border: double rgba(0, 0, 0, 0.11) 2px;
+    border-radius: 28px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.356);
+
+}
+#txtt{
+    font-size: 27pt;
+    text-decoration: underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#txtm{
+    
+    font-size: 23pt;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.233);
+    
+}
+/*Rodapé*/
+footer{
+    height: 33px;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 15vh;
+    gap: 250px;
+}
+
+#nome{
+    color: #ffffff91;
+    font-size: 18pt;
+    transition: all 0,5s;
+    cursor: pointer;
+}
+#nome:hover {
+    color: rgb(193, 67, 252);
+}
+#nome a{
+    text-decoration: none;
+}
+
